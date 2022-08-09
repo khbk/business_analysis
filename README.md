@@ -17,9 +17,11 @@ Taking the collected real life data, how can I make it comprehendable to my clie
 
 | Python          | SQL    |
 |-------------------|---------------|
-| Explanatory Data Analysis | Create Database |
+| Explanatory Data Analysis (EDA) | Create Database |
 | Feature Analysis | Collect and Create tables |
 
 ---
 
+## EDA Process
 
+In the initial Google Sheets, there was a handful of cleaning up to do to make the data analyze-able. First and foremost, we needed to determine if there are any columns unnecessary for the final analysis. In case of University Place file, there were 
