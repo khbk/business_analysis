@@ -36,5 +36,10 @@ After finishing the EDA of University Place, the rest came smoothly. For example
 
 ## SQL Process
 
-
+Now that we have the EDA done using Python, it is ready to be imported into the Azure SQL Server. 
+1. In order to work away from the master database, I created a database called ConveniencestoreDB. 
+2. In that Database, I have imported Burien, Kent and University Place. 
+3. One flaw I had seen while working with Python to clean out the null and empty rows is that I am not able to to identify the tables by locations when looking at them all together. So, to fix this issue, I thought it was proper for me to make the reference table with the unique identifiers of the location ID. In the third and fourth section of the query, how we chose to identify them is through labeling them as numbers 1 through 3.
+4. Next, I think it is proper to include a main table called DailyTransaction and bring the tables into one. Since University Place table has the most columns that overlap with Burien and Kent columns, I included all the columns from University Place. I understand that there will be many null values later on when adding Kent and Burien in the DailyTransaction table, which I fixed when adding them.
+5. I believe in all the steps, adding the three tables into the DailyTransaction table is the most difficult to comprehend what happened. 
 
